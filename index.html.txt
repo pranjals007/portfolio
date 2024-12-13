@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Saxena - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul, .projects ul, .experience ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li, .experience li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+        footer a {
+            color: #0af;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pranjal Saxena</h1>
+        <p>Cloud Engineer | Backend Developer | AWS Certified</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am Pranjal Saxena, a Cloud Engineer with a passion for architecting scalable cloud environments, automating delivery pipelines, and enabling enterprise cloud migration. I hold multiple certifications including AWS Certified Solution Architect - Associate.
+            </p>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>AWS (Lambda, DynamoDB, API Gateway, CloudFormation)</li>
+                <li>Node.js, JavaScript, Python</li>
+                <li>CI/CD (GitLab, Terraform, Kubernetes)</li>
+                <li>RESTful API Design and Development</li>
+                <li>Log Collection & Visualization (Grafana Stack)</li>
+            </ul>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Cloud-Based Shopping Cart API</strong> - Implemented RESTful APIs with event-driven architecture, achieving an 18% performance improvement.
+                </li>
+                <li>
+                    <strong>DevOps Logging Pipeline</strong> - Designed a dockerized log collection and visualization pipeline using the Grafana stack.
+                </li>
+                <li>
+                    <strong>Trading Platform</strong> - Contributed to building a scalable, tax-efficient trading and rebalancing platform.
+                </li>
+            </ul>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Sr. Analyst/Software Engineer</strong> - Capgemini (July 2022 - Present)<br>
+                    Implemented cloud-based solutions and automated CI/CD pipelines for enterprise clients.
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:pranjalsaxena3660@gmail.com">pranjalsaxena3660@gmail.com</a></p>
+            <p>Phone: +91 7049919864</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/pranjal-saxena-8264a4137" target="_blank">linkedin.com/in/pranjal-saxena-8264a4137</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pranjal Saxena. Hosted on <a href="https://github.com" target="_blank">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
